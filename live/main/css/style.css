@@ -1,0 +1,88 @@
+.image {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/assest/live/main/image/20150518-118A8675-Edit.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* // background-attachment: fixed; */
+  background-size: cover;
+  height: 100vh;
+}
+.section {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+@media screen and (max-width: 300px) {
+  .section {
+    bottom: 25px;
+  }
+}
+.font {
+  font-family: "Tiro Gurmukhi", serif;
+  text-align: center;
+  font-size: 52px;
+  line-height: 74px;
+}
+@media screen and (max-width: 700px) {
+  .font {
+    text-align: left;
+  }
+}
+
+.font2 {
+  font-family: "Tiro Gurmukhi", serif;
+  text-align: center;
+  font-size: 64px;
+  line-height: 74px;
+}
+@media screen and (max-width: 700px) {
+  .font2 {
+    font-size: 42px;
+  }
+}
+
+.font3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 24px;
+  line-height: 74px;
+}
+@media screen and (max-width: 700px) {
+  .font3 {
+    font-size: 20px;
+  }
+}
+
+.email {
+  font-family: "Nunito", sans-serif;
+  border: 2.5px solid white;
+}
+
+.btn {
+  font-family: "Playfair Display", serif;
+  color: #000000;
+  font-size: 17px;
+  border-radius: 0px;
+  border: 2px solid #ffffff;
+}
+.btn:hover {
+  color: #000000 !important;
+  background: #ffffff;
+}
+
+/* icon */
+
+#parent {
+  color: #fff;
+  /* padding: 20px; */
+  width: 100%;
+  text-align: center;
+}
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
